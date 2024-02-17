@@ -49,16 +49,24 @@ a {
   color: var(--primary-text-color);
 }
 .global-header .main-nav a:hover {
-  color: var(--primary-text-color);
+  color: #404BBF;
+  text-decoration: underline;
+
 }
 
 /* Contacts section */
 .global-header .contact-mail {
   color: var(--secondary-text-color);
 }
+.global-header .contact-mail:hover{
+  color: #404BBF;
+}
 
 .global-header .contact-phone {
   color: var(--secondary-text-color);
+}
+.global-header .contact-phone:hover{
+  color: #404BBF;
 }
 
 /* Hero section */
@@ -72,19 +80,6 @@ a {
   line-height: 1.07143;
   text-align: center;
   color: #fff;
-}
-
-.hero-section .hero-button{
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: #fff;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-  cursor: pointer;
 }
 
 /* First section */
@@ -151,6 +146,21 @@ a {
 }
 
 /* Button section */
+.hero-section .hero-button{
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.hero-section .hero-button:hover{
+  background-color: #404BBF;
+}
 .button-section .filter-button{
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -168,6 +178,8 @@ a {
 .button-section .filter-button:hover{
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
   background: #404bbf;
+  color: #fff;
+
 }
 
 /* Pictures section */
